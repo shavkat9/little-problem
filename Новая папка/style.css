@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #468499;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+.container {
+    width: calc(768px - 1rem);
+    background:  #0f2229;
+    color: #fff;
+    padding: 80px;
+    border-radius: 10px;
+}
+.container input {
+    width: 200px;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 10px 0 50px;
+}
+.container h4 {
+    font-size: 20px;
+    color: rgb(73, 73, 146);
+}
+.container button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 6px;
+}
+.namebox span {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(73, 73, 146);
+    background-color: #fff;
+
+}
